@@ -1,7 +1,7 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+This is the log site for [Atlanticsailfish](https://github.com/Atlanticsailfish).
 
-::github{repo="saicaca/fuwari"}
+::github{repo="Atlanticsailfish/atlanticsailfish"}
 
 > ### Sources of images used in this site
 > - [Unsplash](https://unsplash.com/)
