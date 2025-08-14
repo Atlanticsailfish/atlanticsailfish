@@ -4,7 +4,7 @@ published: 2025-08-13
 description: '解决容器报错：Error response from daemon: Conflict. The container name "/redis" is already in use by container "b3b8fcc2345..." You have to remove (or rename) that container to be able to reuse that name.'
 image: './posts-images/65764244_p0_master1200.jpg'
 tags: [docker,docker-compose,ubuntu]
-category: 'work'
+category: 'Work'
 draft: false 
 lang: ''
 ---
