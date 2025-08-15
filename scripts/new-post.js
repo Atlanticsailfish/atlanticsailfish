@@ -16,11 +16,29 @@ const args = process.argv.slice(2)
 
 if (args.length === 0) {
   console.error(`Error: No filename argument provided
-Usage: npm run new-post -- <filename>`)
+Usage: pnpm new-post <filename>`)
   process.exit(1) // Terminate the script and return error code 1
 }
 
-let fileName = args[0]
+const targetDir = "./src/content/posts/"
+
+// Find the highest existing post number
+let maxNumber = 0
+const files = fs.readdirSync(targetDir)
+for (const file of files) {
+  const match = file.match(/^(\d{2,4})-/) // Matches 2 to 4 digits at the beginning
+  if (match) {
+    const number = parseInt(match[1], 10)
+    if (!isNaN(number) && number > maxNumber) {
+      maxNumber = number
+    }
+  }
+}
+
+const nextNumber = maxNumber + 1
+const formattedNumber = String(nextNumber).padStart(4, "0")
+
+let fileName = `${formattedNumber}-${args[0]}`
 
 // Add .md extension if not present
 const fileExtensionRegex = /\.(md|mdx)$/i
@@ -28,7 +46,6 @@ if (!fileExtensionRegex.test(fileName)) {
   fileName += ".md"
 }
 
-const targetDir = "./src/content/posts/"
 const fullPath = path.join(targetDir, fileName)
 
 if (fs.existsSync(fullPath)) {

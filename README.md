@@ -6,7 +6,7 @@
 
 A static blog template built with [Astro](https://astro.build).
 
-[**🖥️ Live Demo (Vercel)**](https://fuwari.vercel.app)
+[**🖥️ Live Demo (Vercel)**](https://blog.daqiyu.dpdns.org/)
 
 ![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
 
