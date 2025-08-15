@@ -3,12 +3,14 @@ title: 一位同事的离职
 published: 2025-08-14
 updated: 2025-08-15
 description: ''
-image: ''
+image: './posts-images/0004-a-colleague-leaving.jpg'
 tags: [职场]
 category: 'Work'
 draft: false 
 lang: ''
 ---
+
+> Cover image source: [Source](https://cse.google.com/cse?q=work&cof=FORID%3A0&cx=partner-pub-7640247339000071%3A0803135029)
 
 ## 一个打破现状的人，让你意识到工作环境已是如此不适
 
