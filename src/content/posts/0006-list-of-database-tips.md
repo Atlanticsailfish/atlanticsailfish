@@ -3,8 +3,8 @@ title: list-of-database-tips
 published: 2025-08-16
 description: ''
 image: ''
-tags: []
-category: ''
+tags: [Devops, DBA, Database]
+category: 'Work'
 draft: true 
 lang: ''
 ---
