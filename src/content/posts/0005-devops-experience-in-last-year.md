@@ -36,7 +36,7 @@ Ensure configuration files are under robust version control. (using winmerge)
 Prefer adding new configurations over updating or deleting existing ones. (This practice ensures your work is reversible/allow for rollback)
 Don't leave your configuration files in the wrong path, as it may lead to a confusing error.
 
-> e.g:[Link](https://cse.google.com/cse?q=work&cof=FORID%3A0&cx=partner-pub-7640247339000071%3A0803135029)
+> e.g:[Link](https://blog.daqiyu.dpdns.org/posts/0002-conflict-container-name-is-already-in-used/)
 
 **Handle the exception is the most important thing** 
 
