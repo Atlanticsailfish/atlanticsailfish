@@ -7,7 +7,7 @@ category: Work
 draft: false
 ---
 
-# Time is arguably more valuable than money because you can’t raise more time. 
+# _Time is arguably more valuable than money because you can’t raise more time._
 
 **I think DevOps is a very suitable job for me** 
 

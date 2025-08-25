@@ -3,7 +3,7 @@ title: Ubuntu命令合集
 published: 2025-08-14
 description: ''
 image: './posts-images/124836141_p0_master1200.jpg'
-tags: [system,linux,ubuntu,network]
+tags: [System,Linux,Ubuntu,Network]
 category: 'Work'
 draft: false 
 lang: ''

@@ -4,8 +4,8 @@ published: 2025-08-14
 updated: 2025-08-16
 description: ''
 image: './posts-images/0004-a-colleague-leaving.jpg'
-tags: [长文,职场]
-category: 'personal'
+tags: [Workplace]
+category: 'Personal'
 draft: false 
 lang: ''
 ---
